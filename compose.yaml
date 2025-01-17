@@ -23,7 +23,7 @@ services:
         source: /pds
         target: /pds
     env_file:
-      - /pds/pds.env
+      - pds/pds.env
   watchtower:
     container_name: watchtower
     image: containrrr/watchtower:latest
